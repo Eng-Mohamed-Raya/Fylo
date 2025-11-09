@@ -18,7 +18,7 @@ function Header (){
     return ( 
        <header ref={headerRef} className="fixed top-0 w-full pt-[50px] z-50 transition-all duration-300">
             <div className="container flex flex-col sm:flex-row justify-between items-center pt-3 sm:pt-0 px-2.5 sm:px-[50px] gap-5 md:gap-0 ">
-                <img src="/src/assets/images/logo.svg" alt="logo-img" />
+                <img src="/images/logo.svg" alt="logo-img" />
                 <nav>
                     <ul className="flex gap-5 sm:gap-10 items-center">
                         {navItems.map((item)=>(

@@ -2,19 +2,19 @@ function Footer (){
     return ( 
        <footer className="bg-(--footer-color)">
             <div className="container pt-[150px] px-2.5 sm:px-[50px] ">
-                <img src="/src/assets/images/logo.svg" alt="img" />
+                <img src="/images/logo.svg" alt="img" />
                 <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-5 pb-[50px]">
                     <div className="flex gap-4">
-                        <img src="/src/assets/images/icon-location.svg" alt="img" className="h-4"/>
+                        <img src="/images/icon-location.svg" alt="img" className="h-4"/>
                         <p className="w-[400px] max-w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className="flex gap-4">
-                            <img src="/src/assets/images/icon-phone.svg" alt="img" className="h-4"/>
+                            <img src="/images/icon-phone.svg" alt="img" className="h-4"/>
                             <p>+123456789</p>
                         </div>                       
                          <div className="flex gap-4">
-                            <img src="/src/assets/images/icon-email.svg" alt="img" className="h-4"/>
+                            <img src="/images/icon-email.svg" alt="img" className="h-4"/>
                             <p>example@gmail.com</p>
                         </div>
                     </div>
