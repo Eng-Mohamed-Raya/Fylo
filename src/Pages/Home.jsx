@@ -1,10 +1,10 @@
-import Contact from "../components/contact";
-import Feature from "../components/Feature";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
-import StayProductive from "../components/StayProductive";
-import Testimonials from "../components/Testimonials";
+import Header from './../components/Header';
+import HeroSection from './../components/HeroSection';
+import Feature from './../components/Feature';
+import StayProductive from './../components/StayProductive';
+import Testimonials from './../components/Testimonials';
+import Contact from './../components/Contact';
+import Footer from './../components/Footer';
 
 function Home (){
     return ( 
